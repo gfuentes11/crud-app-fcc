@@ -1,16 +1,23 @@
 {
     "name": "crud-backend",
-    "version": "1.0.0", 
+    "version": "1.0.0",
     "scripts": {
-        "start": "node index.js", 
-        "test": "echo 'Add tests here'", 
-        "lint": "eslint ." 
+        "start": "node index.js",
+        "test": "echo 'Add tests here'",
+        "lint": "eslint ."
     },
     "dependencies": {
-        "express": "^4.17.1", 
-        "pg": "^8.7.3" 
+        "express": "^4.17.1",
+        "pg": "^8.7.3"
     },
     "devDependencies": {
-        "eslint":"^8.0.0" 
+        "@eslint/js": "^9.27.0",
+        "eslint": "^8.57.1",
+        "eslint-config-airbnb": "^19.0.4",
+        "eslint-plugin-import": "^2.31.0",
+        "eslint-plugin-jsx-a11y": "^6.10.2",
+        "eslint-plugin-react": "^7.37.5",
+        "eslint-plugin-react-hooks": "^4.6.2",
+        "globals": "^16.2.0"
     }
 }
