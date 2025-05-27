@@ -5,7 +5,7 @@
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
-        "lint": "eslint ."
+        "lint": "react-scripts lint"
     },
     "dependencies": {
         "axios": "^0.24.0",
@@ -13,7 +13,5 @@
         "react-dom": "^17.0.2",
         "react-scripts": "^4.0.3"
     },
-    "devDependencies": {
-        "eslint-config-react-app": "^7.0.1"
-    }
+    "devDependencies": {}
 }
