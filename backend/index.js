@@ -25,4 +25,4 @@ app.post('/users', async (req, res) => {
 });
 
 // Start the server on port 3000
-app.listen(3000, () => console.log('Backend running on port 3000'));
+app.listen(3000, () => console.log('Backend unning on port 3000'));
